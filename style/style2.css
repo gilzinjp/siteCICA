@@ -1,0 +1,309 @@
+/* --------- GENERAL ----------- */
+
+body{
+    background-color: #fbf8f1;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* --------- VIDEO ----------- */
+
+video{
+    width: 800px;
+    max-width: 100%;
+    border-radius: 2%;
+}
+
+/* ------- IMG ---------- */
+
+.img-contact{
+    height: 400px;
+    width: auto;
+}
+
+.img-prop{
+    height: 200px;
+    width: auto;
+}
+
+.img-panel{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-info{
+    height: auto;
+    width: 80%;
+    border-radius: 50%;
+}
+
+.img-icon{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.img-contact-icon{
+    width: 50px;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.img-mini-icon{
+    height: 30px;
+    width: auto;
+    padding: 20px;
+}
+
+/* --------- CONTAINER ----------- */
+
+.propaganda-container{
+    display: block;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    padding: 20px;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.propaganda-content{
+    max-width: 100%;
+    /* border: 1px solid green; */
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bigger{
+    width: 600px;
+}
+
+.header-container{
+    padding: 7px;
+    background-color: #afbede;
+    margin-bottom: 35px;
+}
+
+.video-container{
+    padding: 20px;
+    max-width: 100%;
+    /* border: 2px solid red; */
+}
+
+.button-container{
+    /* border: 2px solid green; */
+    padding: 20px;
+}
+
+.mc-footer-container{
+    margin-top: 50px;
+}
+
+.collapsible-container{
+    max-width: 100%;
+    /* border: 2px solid blue; */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-container{
+    display: block;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+
+.contact-content{
+    vertical-align: middle;
+    max-width: 100%;
+    /* border: 1px solid green; */
+    display: inline-block;
+}
+
+.contact-smaller{
+    width: 300px;
+    max-width: 100%;
+}
+
+.contact-bigger{
+    width: 600px;
+    max-width: 100%;
+}
+
+/* ------- TEXTS ---------- */
+
+.mc-lshadow{
+    text-shadow: 2px 2px 1px black;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+p, h1, h2, h3, h4{
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.title-medium{
+    text-align: center;
+}
+
+/* ------- COLORS ---------- */
+
+.mc-border-lshadow{
+    box-shadow: 2px 1px 3px #e8d5da;
+}
+
+.text-white{
+    color: white;
+}
+
+.bg-ogblue{
+    background-color: #afbede;
+}
+
+.bg-oglpink{
+    background-color: #e8d5da;
+}
+
+.bg-ogdpink{
+    background-color: #cab3c0;
+}
+
+.bg-ogdgreen{
+    background-color: #909e8e;
+}
+
+.bg-oglgreen{
+    background-color: #c8dfce;
+}
+
+.bg-ogwhite{
+    background-color: #fbf8f1;
+}
+
+.text-ogblue{
+    color: #afbede;
+}
+
+.text-oglpink{
+    color: #e8d5da;
+}
+
+.text-ogdpink{
+    color: #cab3c0;
+}
+
+.text-ogdgreen{
+    color: #909e8e;
+}
+
+.text-oglgreen{
+    color: #c8dfce;
+}
+
+.text-ogwhite{
+    color: #fbf8f1;
+}
+
+.text-black{
+    color: black;
+}
+
+.mc-grayscale {
+    filter: grayscale(100%);
+}
+
+.mc-mgrayscale {
+    filter: grayscale(50%);
+}
+
+/* ------- COLLAPSABLE ---------- */
+
+.collapsible {
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    background-color: #afbede;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 900px;
+    max-width: 100%;
+    border: 2px solid #c8dfce;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+
+  .collapsible:hover{
+    background-color: #c8dfce;
+    transition-duration: 500ms;
+  }
+
+  .collapsible:hover a{
+    transform: scale(1.5);
+    transition-duration: 250ms;
+  }
+
+  .content {
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    width: 850px;
+    max-width: 90%;
+    font-size: 16px;
+    text-align: justify;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin: 0 auto;
+  }
+
+/* ------- BUTTONS ---------- */
+
+.mc-button{
+    appearance: none;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.mc-button:hover {
+    /* box-shadow: #cab3c0 0 8px 15px; */
+    background-color: #c8dfce;
+    border: none;
+    transform: scale(1.4);
+    transition-duration: 500ms;
+}
+
+  /* CORES
+
+VERDE CLARO #E5FDD1
+ROSA #FCC2FC
+VERDE ESCURO #C9F4AA
+
+rosa burro #cab3c0
+rosa nude #e8d5da
+branco #fbf8f1
+verde claro #c8dfce
+verde escuro #909e8e
+azul #afbede
+
+
+*/

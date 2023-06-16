@@ -1,0 +1,247 @@
+/* ------- GERAL ---------- */
+
+body{
+    background-color: #fbf8f1;
+    padding: 0;
+    margin: 0;
+}
+
+/* ------- IMG ---------- */
+
+.img-panel{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-info{
+    height: auto;
+    width: 80%;
+    border-radius: 50%;
+}
+
+.img-icon{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding-right: 20px;
+}
+
+.img-mini-icon{
+    height: 20px;
+    width: auto;
+    padding: 20px;
+}
+
+/* ------- CONTAINERS ---------- */
+
+.mc-header-container{
+    /* background-image:linear-gradient(to left, rgba(245, 246, 252, 0.4), rgba(0, 0, 0, 0.9)),url(img/konoha.jpg); */
+    background-image:linear-gradient(to left, #afbede, #e8d5da);
+    display: block;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    padding: 20px;
+    max-width: 100%;
+}
+
+.mc-header-container .text-right{
+    float: right;
+}
+
+.mc-header-content{
+    /* width: 600px; */
+    max-width: 100%;
+    /* border: 1px solid green; */
+    display: inline-block;
+}
+
+.bigger{
+    width: 600px;
+    max-width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.smaller{
+    width: 545px;
+    max-width: 100%;
+    text-align: right;
+    display: inline-block;
+}
+
+.mc-container{
+    display: block;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+.mc-content{
+    width: 300px;
+    margin-top: 0;
+    border: 1px solid #e8d5da;
+    text-align: center;
+    display: inline-block;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+
+}
+/* ------- TEXTS ---------- */
+
+.mc-lshadow{
+    text-shadow: 2px 2px 2px black;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+p, h1, h2, h3, h4{
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.title-medium{
+    text-align: center;
+}
+
+/* ------- COLORS ---------- */
+
+.mc-border-lshadow{
+    box-shadow: 2px 1px 3px #e8d5da;
+}
+
+.text-white{
+    color: white;
+}
+
+.bg-ogblue{
+    background-color: #afbede;
+}
+
+.bg-oglpink{
+    background-color: #e8d5da;
+}
+
+.bg-ogdpink{
+    background-color: #cab3c0;
+}
+
+.bg-ogdgreen{
+    background-color: #909e8e;
+}
+
+.bg-oglgreen{
+    background-color: #c8dfce;
+}
+
+.bg-ogwhite{
+    background-color: #fbf8f1;
+}
+
+.text-ogblue{
+    color: #afbede;
+}
+
+.text-oglpink{
+    color: #e8d5da;
+}
+
+.text-ogdpink{
+    color: #cab3c0;
+}
+
+.text-ogdgreen{
+    color: #909e8e;
+}
+
+.text-oglgreen{
+    color: #c8dfce;
+}
+
+.text-ogwhite{
+    color: #fbf8f1;
+}
+
+.mc-grayscale {
+    filter: grayscale(100%);
+}
+
+.mc-mgrayscale {
+    filter: grayscale(50%);
+}
+
+/* ------- POSITIONS AND SIZES ---------- */
+
+.big-if-hover:hover{
+    transform: scale(1.3);
+    transition-duration: 500ms;
+}
+
+.mc-float-left{
+    float: left;
+}
+
+.mc-float-right{
+    float: right;
+}
+
+.mc-medium-box{
+    width: 500px;
+}
+
+.mc-padding-right{
+    padding-right: 20px;
+}
+
+.mc-padding-left{
+    padding-left: 20px;
+}
+
+/* ------- BUTTONS ---------- */
+
+.mc-button{
+    appearance: none;
+    background-color: #afbede;
+    border: 2px solid #afbede;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.mc-button:hover {
+    /* box-shadow: #cab3c0 0 8px 15px; */
+    background-color: #c8dfce;
+    border: 2px solid #c8dfce;
+    transform: scale(1.2);
+    transition-duration: 500ms;
+  }
+
+  /* CORES
+
+VERDE CLARO #E5FDD1
+ROSA #FCC2FC
+VERDE ESCURO #C9F4AA
+
+rosa burro #cab3c0
+rosa nude #e8d5da
+branco #fbf8f1
+verde claro #c8dfce
+verde escuro #909e8e
+azul #afbede
+
+
+*/
